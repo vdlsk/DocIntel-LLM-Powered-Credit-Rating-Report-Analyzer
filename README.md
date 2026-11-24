@@ -1,5 +1,9 @@
 # DocIntel – Credit Rating Report Analyzer
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://docintel-llm-powered-credit-rating-report-analyzer-fkd7kbdbjjs.streamlit.app)
+
+**Live demo:** [docintel-llm-powered-credit-rating-report-analyzer-fkd7kbdbjjs.streamlit.app](https://docintel-llm-powered-credit-rating-report-analyzer-fkd7kbdbjjs.streamlit.app)
+
 Upload a credit rating report PDF (CARE, CRISIL, ICRA, India Ratings, Acuité). The app reads it
 automatically and shows a **dashboard** (rating, financial charts, ratios, warnings) and a
 **chatbot** that answers questions with page citations.
