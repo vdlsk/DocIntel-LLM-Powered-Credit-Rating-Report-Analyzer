@@ -1,0 +1,13 @@
+# Starts two containers from the same image:  ui (Streamlit, port 8501) and api (FastAPI, port 8000)
+services:
+  ui:
+    build: .
+    ports: ["8501:8501"]
+    env_file: .env
+    volumes: ["./chroma_db:/app/chroma_db"]
+  api:
+    build: .
+    command: uvicorn api:app --host 0.0.0.0 --port 8000
+    ports: ["8000:8000"]
+    env_file: .env
+    volumes: ["./chroma_db:/app/chroma_db"]

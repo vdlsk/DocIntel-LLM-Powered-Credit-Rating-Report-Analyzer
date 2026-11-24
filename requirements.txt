@@ -1,0 +1,16 @@
+streamlit
+plotly
+pandas
+pydantic
+python-dotenv
+tenacity
+pypdf
+langchain
+langchain-text-splitters
+langchain-chroma
+langchain-google-genai
+langchain-openai
+langgraph
+fastapi
+uvicorn
+python-multipart
